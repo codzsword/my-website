@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Design</title>
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="portfolio-container">
+            <div class="portfolio-row header-wrap">
+                <div class="brand-name">
+                    <a href="#" class="logo">Jane Doe</a>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="portfolio-navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="slide-carousel">
+        <div class="slider">
+            <div class="portfolio-container">
+                <div class="slider-content">
+                    <div class="slider-general">
+                        <span class="welcome-msg">
+                            Welcome! Hello World!!
+                        </span>
+                        <div class="welcome-text">
+                            <h1>
+                                Hi, I am
+                            </h1>
+                            <div class="text-wrap">
+                                <h2 class="main-title">Jane Doe</h2>
+                                <h2 class="hover-title">Jane Doe</h2>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, neque quaerat?
+                                Repellendus facere necessitatibus ut sunt, ipsam omnis eum, labore, veniam est numquam
+                                veritatis quod ea culpa totam eius neque.
+                            </p>
+                            <div class="download-resume">
+                                <a href="Jane-Doe-CV.pdf" target="_blank">
+                                    Download CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-image">
+                        <div class="welcome-image">
+                            <img src="image/image.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="portfolio-container">
+            <div class="text-wrap">
+                <h2 class="main-title">Stay Connceted</h2>
+                <h2 class="hover-title">Stay Connceted</h2>
+            </div>
+            <div class="contact-info">
+                <span>
+                    King Street, Melbourne Victoria
+                </span>
+                <h3>codzsword@gmail.com</h3>
+                <a href="#">
+                    + 88 (9800) 7171
+                </a>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li>
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function () {
+            document.querySelector(".portfolio-navbar").classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>
